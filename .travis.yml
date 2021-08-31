@@ -2,8 +2,7 @@ language: node_js
 cache:
   directories:
     -~/.npm
-  mode_js:
-    -'12'
+  mode_js: -'12'
   git:
     depth: 3
   script:
